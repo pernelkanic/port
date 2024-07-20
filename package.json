@@ -12,8 +12,10 @@
   "dependencies": {
     "@types/three": "^0.165.0",
     "flowbite-react": "^0.9.0",
+    "mdb-react-ui-kit": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
     "react-pro-sidebar": "^1.1.0",
     "three": "^0.165.0",
     "typed.js": "^2.1.0",

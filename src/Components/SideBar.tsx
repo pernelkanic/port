@@ -1,5 +1,9 @@
-import React from "react";
-import { Sidebar } from "flowbite-react";  
+import {
+    MDBBtn,
+    MDBContainer,
+    MDBFooter
+} from 'mdb-react-ui-kit';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 function SideBar(){
 
     return(
@@ -27,6 +31,33 @@ function SideBar(){
           <div className="sidebar_item">
             <i className="fas fa-envelope"></i>
             <a>Contact</a>
+          </div>
+          <div>
+      <footer id= 'foot' style={{marginTop:"6em"}}> 
+        <MDBFooter className='bg-[#000] bg-opacity-70 text-center pt-10 mt-10  text-white '>
+      <MDBContainer className='  pb-0'>
+        <section className='mb-4 gap-8'>
+        <a href='https://github.com/pernelkanic' target="_blank"><MDBBtn outline color="light" floating className='m-1'  role='button'>
+           <AiFillGithub />
+          </MDBBtn></a>
+
+          
+
+        
+         
+
+          <a href='https://www.linkedin.com/in/venkatkrishnan-raghavan-8b3017249/' target="_blank"> <MDBBtn outline color="light" floating className='m-1'  role='button'>
+          <AiFillLinkedin/>
+          </MDBBtn></a>
+
+          
+        </section>
+      </MDBContainer>
+
+             
+    </MDBFooter>
+    
+    </footer>
           </div>
         </div>
         </div>
